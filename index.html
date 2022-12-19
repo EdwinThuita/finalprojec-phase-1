@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cars</title>
+    <link rel="stylesheet" href="cars.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Cars</h1>
+    </header>
+
+    <form id="form" >
+        <div id="formCont">
+            <span>
+                <label>Username:</label>
+                <input name="username" id="username"/>
+            </span>
+
+            <span>
+                <label>Password:</label>
+                <input name="password" type="password" id="password"/>
+            </span>
+
+            <p id="loginError"></p>
+
+            <button id="login" type="button">Login</button>
+        </div>
+    </form>
+
+    <div class="content">
+      <div class="list">
+        <h2>Stock</h2>
+
+
+    <input placeholder="Search..." name="searchText" id="searchInput"/>
+
+
+        <ol id="list">
+          
+        </ol>
+      </div>
+
+      <div class="details">
+        <h2>Car Details</h2>
+
+        <div class="cont">
+        <div class="nameDiv">
+          <span>
+            <label class="key">Name:</label>
+            <label id="name" class="value"></label> </label>
+          </span>
+
+          <span>
+            <label class="key">Brand:</label>
+            <label id="brand" class="value"></label> </label>
+          </span>
+
+          <span>
+            <label class="key">Price:</label>
+            <label id="price" class="value"></label> </label>
+          </span>
+        </div>
+
+        
+
+        <img id="img"/>
+
+        <div class="actions">
+          <span>
+            <label class="key">Available:</label>
+            <label id="available" class="value"> </label>
+          </span>
+
+          <button id="purchase" class="purchase" type="button">Purchase</button>
+        </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="cars.js"></script>
+  </body>
+</html>

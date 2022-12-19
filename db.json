@@ -1,95 +1,88 @@
 {
-    "users":{
-        "username":"user@gmail.com",
-        "password":"123456"
-
+  "users": {
+    "username": "user@gmail.com",
+    "password": "123456"
+  },
+  "cars": [
+    {
+      "id": "1",
+      "name": "mercedes AMG-1",
+      "price": 800000,
+      "image": "https://imgd.aeplcdn.com/664x374/n/cw/ec/20865/amg-gt-exterior-right-front-three-quarter-60800.jpeg?q=75",
+      "stock": 6,
+      "description": "The Mercedes-AMG E63 S sedan accelerates like a SpaceX rocket and pampers like a spa day, delivering awesome performance and phenomenal luxury in the process. With curvaceous coupe and roadster body styles and a lot of high-performance tech, the Mercedes-AMG GT is stunning to look at and exciting to drive"
     },
-    "cars":[
-        {
-            "id":"1",
-            "name":"mercedes AMG-1",
-            "price": 800000,
-            "image":"https://imgd.aeplcdn.com/664x374/n/cw/ec/20865/amg-gt-exterior-right-front-three-quarter-60800.jpeg?q=75",
-            "stock":7,
-            "description":"The Mercedes-AMG E63 S sedan accelerates like a SpaceX rocket and pampers like a spa day, delivering awesome performance and phenomenal luxury in the process. With curvaceous coupe and roadster body styles and a lot of high-performance tech, the Mercedes-AMG GT is stunning to look at and exciting to drive"
-
-        },
-        {
-        "id": "2",
-        "title": "subaru STI",
-        "price":700000,
-        "image":"https://www.cnet.com/a/img/resize/61d370bd90b81c5720772d1af97b307e2eaf645e/hub/2020/04/17/e5b58c76-9036-4b9c-92ae-5246d20bb53c/sti-promo.jpg?auto=webp&width=1200",
-        "stock":"40",
-        "description":"It comes with a 2.5-liter flat-four turbocharged boxer engine capable of putting out 310 horsepower and 290 pound-feet of torque,"
-        
-      },
-      {
-        "id": "3",
-        "title": "Nissan GTR",
-        "price":1000000,
-        "image":"https://wieck-nissanao-production.s3.amazonaws.com/photos/17317df4353c56139b1e855547b9da366df19ac8/preview-928x522.jpg",
-        "stock":"10",
-        "description":"The 2023 GT-R's standard twin-turbo 3.8-liter V-6 makes a mighty 565 horsepower and 467 pound-feet of torque. It hooks up to a six-speed automatic transmission"
-      },
-      {
-        "id": "4",
-        "title": "Audi A4",
-        "price":600000,
-        "image":"https://hips.hearstapps.com/hmg-prod/images/medium-6796-2020audia4-1654633138.jpg?crop=0.896xw:0.821xh;0.104xw,0.179xh&resize=480:*",
-        "stock":"45",
-        "description":"The base specification rose to 201 hp and 236 lb-ft of torque, and the upgraded unit's output increased to 261 hp and 273 lb-ft of torque."
-      },
-      {
-        "id": "5",
-        "title": "BMW M3",
-        "price":1100000,
-        "image":"https://i.ytimg.com/vi/bUVB0eB9d6Q/maxresdefault.jpg",
-        "stock":"9",
-        "description":"M3 sedan features a twin-turbo 3.0-liter inline-six. The normal version sends 473 horsepower and 406 pound-feet of torque "
-      },
-      {
-        "id": "6",
-        "title": "Toyota Brz",
-        "price":720000,
-        "image":"https://www.cnet.com/a/img/resize/8ddfe7549e023ef57420fe62bc8255ec6e1a4628/hub/2018/02/01/fd5dc9ef-dc57-4db1-b099-27400e2e95df/2018-subaru-brz-ts-58.jpg?auto=webp&fit=crop&height=675&width=1200",
-        "stock":"8",
-        "description":"With a 2.4-liter, 228 hp BOXER engine, 182 pound-feet of torque, and track-tuned suspension, the BRZ is a high-performance sports car for demanding drivers."
-      },
-      
-      {
-        "id": "7",
-        "title": "Golf GTR",
-        "price":110000,
-        "image":"https://i.pinimg.com/originals/a1/3c/18/a13c18964da2e88267de3578b6317553.jpg",
-        "stock":"14",
-        "description":"The Golf Mk7 GTI is powered by a 2.0-litre turbocharged direct-injection petrol engine (TSI) with 220 PS (162 kW; 217 hp). In the GTI Performance version, the engine's maximum power is boosted to 230 PS (169 kW; 227 hp). Both GTI models develop 350 N⋅m (36 kg⋅m; 258 lb⋅ft) of torque."
-      },
-      {
-        "id": "8",
-        "title": "AUDI A3",
-        "price":700000,
-        "image":"https://media.autoexpress.co.uk/image/private/s--X-WVjvBW--/f_auto,t_content-image-full-desktop@1/v1562228078/autoexpress/1-a3-front-cornering.jpg",
-        "stock":"9",
-        "description":"A 201-hp turbocharged 2.0-liter four-cylinder "
-      },
-      {
-        "id": "9",
-        "title": "ferrari",
-        "price":700000,
-        "image":"https://hips.hearstapps.com/vidthumb/images/ferrari-portofino-m-101-1600272934.jpg",
-        "stock":"5",
-        "description":"Ferraris are what dreams are made of. Fast, sexy, and highly exclusive, these Italian supercars push the boundaries of performance"
-      },
-      {
-        "id": "10",
-        "title": "RangeRover Sport",
-        "price":7200000,
-        "image":"https://media.cdn-jaguarlandrover.com/api/v2/images/79181/w/1000",
-        "stock":"8",
-        "description":"THE NEW RANGE ROVER SPORT SPECIFICATIONS ; TOP SPEED. 242km/h. (150mph) ; ACCELERATION. 5,4(5,2). secs ; MAXIMUM TORQUE. 700. Nm ;"
-      }
-      
-    ]
-  }
-
-  
+    {
+      "id": "2",
+      "name": "subaru STI",
+      "price": 700000,
+      "image": "https://www.cnet.com/a/img/resize/61d370bd90b81c5720772d1af97b307e2eaf645e/hub/2020/04/17/e5b58c76-9036-4b9c-92ae-5246d20bb53c/sti-promo.jpg?auto=webp&width=1200",
+      "stock": 39,
+      "description": "It comes with a 2.5-liter flat-four turbocharged boxer engine capable of putting out 310 horsepower and 290 pound-feet of torque,"
+    },
+    {
+      "id": "3",
+      "name": "Nissan GTR",
+      "price": 1000000,
+      "image": "https://wieck-nissanao-production.s3.amazonaws.com/photos/17317df4353c56139b1e855547b9da366df19ac8/preview-928x522.jpg",
+      "stock": "10",
+      "description": "The 2023 GT-R's standard twin-turbo 3.8-liter V-6 makes a mighty 565 horsepower and 467 pound-feet of torque. It hooks up to a six-speed automatic transmission"
+    },
+    {
+      "id": "4",
+      "name": "Audi A4",
+      "price": 600000,
+      "image": "https://hips.hearstapps.com/hmg-prod/images/medium-6796-2020audia4-1654633138.jpg?crop=0.896xw:0.821xh;0.104xw,0.179xh&resize=480:*",
+      "stock": "45",
+      "description": "The base specification rose to 201 hp and 236 lb-ft of torque, and the upgraded unit's output increased to 261 hp and 273 lb-ft of torque."
+    },
+    {
+      "id": "5",
+      "name": "BMW M3",
+      "price": 1100000,
+      "image": "https://i.ytimg.com/vi/bUVB0eB9d6Q/maxresdefault.jpg",
+      "stock": 8,
+      "description": "M3 sedan features a twin-turbo 3.0-liter inline-six. The normal version sends 473 horsepower and 406 pound-feet of torque "
+    },
+    {
+      "id": "6",
+      "name": "Toyota Brz",
+      "price": 720000,
+      "image": "https://www.cnet.com/a/img/resize/8ddfe7549e023ef57420fe62bc8255ec6e1a4628/hub/2018/02/01/fd5dc9ef-dc57-4db1-b099-27400e2e95df/2018-subaru-brz-ts-58.jpg?auto=webp&fit=crop&height=675&width=1200",
+      "stock": "8",
+      "description": "With a 2.4-liter, 228 hp BOXER engine, 182 pound-feet of torque, and track-tuned suspension, the BRZ is a high-performance sports car for demanding drivers."
+    },
+    {
+      "id": "7",
+      "name": "Golf GTR",
+      "price": 110000,
+      "image": "https://i.pinimg.com/originals/a1/3c/18/a13c18964da2e88267de3578b6317553.jpg",
+      "stock": "14",
+      "description": "The Golf Mk7 GTI is powered by a 2.0-litre turbocharged direct-injection petrol engine (TSI) with 220 PS (162 kW; 217 hp). In the GTI Performance version, the engine's maximum power is boosted to 230 PS (169 kW; 227 hp). Both GTI models develop 350 N⋅m (36 kg⋅m; 258 lb⋅ft) of torque."
+    },
+    {
+      "id": "8",
+      "name": "AUDI A3",
+      "price": 700000,
+      "image": "https://media.autoexpress.co.uk/image/private/s--X-WVjvBW--/f_auto,t_content-image-full-desktop@1/v1562228078/autoexpress/1-a3-front-cornering.jpg",
+      "stock": "9",
+      "description": "A 201-hp turbocharged 2.0-liter four-cylinder "
+    },
+    {
+      "id": "9",
+      "name": "ferrari",
+      "price": 700000,
+      "image": "https://hips.hearstapps.com/vidthumb/images/ferrari-portofino-m-101-1600272934.jpg",
+      "stock": "5",
+      "description": "Ferraris are what dreams are made of. Fast, sexy, and highly exclusive, these Italian supercars push the boundaries of performance"
+    },
+    {
+      "id": "10",
+      "name": "RangeRover Sport",
+      "price": 7200000,
+      "image": "https://media.cdn-jaguarlandrover.com/api/v2/images/79181/w/1000",
+      "stock": "8",
+      "description": "THE NEW RANGE ROVER SPORT SPECIFICATIONS ; TOP SPEED. 242km/h. (150mph) ; ACCELERATION. 5,4(5,2). secs ; MAXIMUM TORQUE. 700. Nm ;"
+    }
+  ]
+}

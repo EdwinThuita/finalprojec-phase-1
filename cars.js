@@ -39,7 +39,9 @@ purchaseBtn.addEventListener("click", () => {
   })
     .then((response) => response.json())
     .then((data) => {
-      console.log(data);
+      const index = cars.findIndex(car => car.id == data.id);
+      cars.splice(index, 1, data);
+      setCarDetails()
     })
     .catch((err) => {
       console.log(err);
@@ -60,7 +62,7 @@ loginBtn.addEventListener("click", () => {
 
 function fetchData() {
   removeChilds(list);
-  fetch("https://my-json-server.typicode.com/EdwinThuita/carsapi/cars/", {
+  fetch("https://my-json-server.typicode.com/EdwinThuita/carsapi/cars", {
     method: "GET",
   })
     .then((response) => response.json())

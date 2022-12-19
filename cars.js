@@ -29,7 +29,7 @@ searchInput.addEventListener("input", () => {
 
 purchaseBtn.addEventListener("click", () => {
   const car = cars.find((c) => c.id == selectedCarId);
-  fetch(`http://localhost:3000/cars/${car.id}`, {
+  fetch(`https://my-json-server.typicode.com/EdwinThuita/carsapi/cars/${car.id}`, {
     method: "PUT",
     headers: new Headers({ "content-type": "application/json" }),
     body: JSON.stringify({
@@ -60,7 +60,7 @@ loginBtn.addEventListener("click", () => {
 
 function fetchData() {
   removeChilds(list);
-  fetch("http://localhost:3000/cars", {
+  fetch("https://my-json-server.typicode.com/EdwinThuita/carsapi/cars/", {
     method: "GET",
   })
     .then((response) => response.json())

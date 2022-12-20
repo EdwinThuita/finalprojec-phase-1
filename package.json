@@ -1,0 +1,22 @@
+{
+  "name": "finalprojec-phase-1",
+  "version": "1.0.0",
+  "description": "cars project",
+  "main": "cars.js",
+  "scripts": {
+    "test": "npm start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EdwinThuita/finalprojec-phase-1.git"
+  },
+  "keywords": [
+    "cars"
+  ],
+  "author": "Edwin Thuita Maina",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/EdwinThuita/finalprojec-phase-1/issues"
+  },
+  "homepage": "https://github.com/EdwinThuita/finalprojec-phase-1#readme"
+}
